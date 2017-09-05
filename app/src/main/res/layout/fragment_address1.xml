@@ -1,0 +1,143 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.childtracker.Address1"
+    android:padding="25dp"
+    android:layout_marginBottom="30dp"
+    android:background="@drawable/address1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp"
+        android:padding="25dp">
+
+
+    <EditText
+        android:id="@+id/editTextAddress1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Address (Parent's Address)"
+        android:textColorHint="@color/White"
+        android:textSize="20dp"
+        android:textColor="@color/White"
+        android:padding="6dp"
+        android:background="@android:color/transparent"
+        android:inputType="textMultiLine" />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffd7ff"/>
+
+    <EditText
+        android:id="@+id/editTextCity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="City"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/White"
+        android:textSize="20dp"
+        android:textColor="@color/White"
+        android:padding="6dp"
+        android:background="@android:color/transparent"
+        android:inputType="textPersonName" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffd7ff"/>
+
+    <EditText
+        android:id="@+id/editTextState1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="State"
+        android:textSize="20dp"
+        android:textColor="@color/White"
+        android:padding="6dp"
+        android:textColorHint="@color/White"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName" />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffd7ff"/>
+
+    <EditText
+        android:id="@+id/editTextMobile1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mobile No."
+        android:textSize="20dp"
+        android:textColor="@color/White"
+        android:padding="6dp"
+        android:textColorHint="@color/White"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="200dp"
+        android:inputType="phone" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffd7ff"/>
+
+
+        <Button
+            android:id="@+id/buttonFetchAddress1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textColor="@color/White"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:background="@drawable/address1_buttons"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="Fetch Address" />
+
+    <Button
+        android:id="@+id/buttonSubmit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:padding="8dp"
+        android:background="@drawable/address1_buttons"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:text="Submit" />
+
+
+
+    <Button
+        android:id="@+id/buttonEdit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:padding="8dp"
+        android:background="@drawable/address1_buttons"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:text="Edit" />
+</LinearLayout>
+
+    </ScrollView>

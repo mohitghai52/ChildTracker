@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.childtracker.LoginActivity"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@drawable/gradient_login">
+
+
+    <ImageView
+        android:id="@+id/imageViewSpeedometer"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/whitespeedometer" />
+
+    <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:textColor="@color/White"
+            android:textColorHint="@color/White"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="10dp"
+            android:padding="8dp"
+            android:maxLines="1"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:inputType="textEmailAddress" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db"/>
+
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:textColor="@color/White"
+        android:textColorHint="@color/White"
+        android:drawableLeft="@drawable/password"
+        android:padding="8dp"
+        android:drawablePadding="10dp"
+        android:maxLines="1"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:inputType="textPassword" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:layout_marginTop="15dp"
+        android:buttonTint="@color/White"
+        android:textColor="@color/White"
+        android:id="@+id/cbRememberMe"/>
+
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textStyle="normal"
+        android:clickable="true"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColorHint="#f16f7d"
+        android:padding="8dp"
+        android:background="@drawable/background_login"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:text="Log In" />
+
+
+    <TextView
+        android:id="@+id/textViewForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:text="Forgot Password!"
+        android:padding="8dp"
+        android:clickable="true"
+        android:textColor="#fff"
+        style="@style/TextAppearance.AppCompat.Body1"/>
+
+
+</LinearLayout>

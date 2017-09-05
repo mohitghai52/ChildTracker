@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.childtracker.HelpActivity"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/textViewChildHelper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="Child Helper" />
+
+    <TextView
+        android:id="@+id/textViewChildLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Your Current Location Is:-"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Enter Your Message (if any)"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textMultiLine" />
+
+    <CheckBox
+        android:id="@+id/checkBoxParents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Tick if location and other details to be send to your parents only else it will be send to nearby relatives" />
+
+    <Button
+        android:id="@+id/buttonHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Help Me" />
+</LinearLayout>

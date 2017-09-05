@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.childtracker.SpeedActivity"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@drawable/speedbackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LinearLayout1"
+        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewSelectSpeed1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Select Speed 1 (in km/h):"
+                android:textColor="@color/Black"
+                android:textSize="25dp"/>
+
+
+        <NumberPicker
+        android:id="@+id/numberPickerSpeed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:solidColor="#cee7fc"/>
+
+    <TextView
+        android:id="@+id/textViewDisplaySpeed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Speed 1 :"
+        android:textSize="25dp"
+        android:textColor="@color/Black"
+        android:layout_marginTop="35dp"/>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:padding="4dp"
+        android:background="@drawable/background_speed_next"
+        android:layout_marginTop="35dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LinearLayout2"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/textViewSelectSpeed2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Speed 2 (in km/h):"
+            android:textSize="25dp"
+            android:textColor="@color/Black"
+            android:layout_marginTop="25dp" />
+
+        <NumberPicker
+            android:id="@+id/numberPickerSpeed2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:solidColor="#cee7fc"/>
+
+        <TextView
+            android:id="@+id/textViewDisplaySpeed2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speed 2 :"
+            android:textSize="25dp"
+            android:textColor="@color/Black"
+            android:layout_marginTop="35dp"/>
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:padding="4dp"
+            android:layout_marginTop="35dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LinearLayout3"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/TextViewSpeed1Is"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="25dp"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:id="@+id/TextViewSpeed2Is"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="25dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:layout_marginTop="25dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
